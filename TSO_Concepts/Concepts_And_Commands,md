@@ -1,0 +1,23 @@
+
+# TSO Concepts and Commands
+
+
+TSO
+: Time sharing utility that allows users to send work to the processor. CPU takes the work and process small amounts before passing control to the next users
+
+Without TSO all functions would have to be run in batch instead of real time
+
+TSO allows dymamically allocating of 
+* Lists
+* Copy
+* Delete 
+* Rename
+
+
+TSO allows for communication with JES2 or JES3 to submit background jiobs and progress can be monitored.
+
+Standerd naming convention is Project.Group.Type
+For example T74210.JCL.CNTRL(IEBCOPY)
+
+Each qualifyer can be up to 8 charactres long and the total data set name lenght must not exceed 44 characters
+
